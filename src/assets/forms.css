@@ -1,0 +1,35 @@
+/** form errors to angular + bootstrap **/
+.has-error .sensitive,
+.has-error .sensitive td,
+.has-error .sensitive .fixed-table-container {
+    border-color: #a94442;
+    color: #a94442;
+    background-color: #f2dede;
+}
+
+.has-warning .sensitive {
+    border-color: rgb(138, 109, 59);
+    color: rgb(138, 109, 59);
+    background-color: rgb(252, 248, 227);
+}
+
+.has-success .sensitive {
+    border-color: rgb(60, 118, 61);
+    color: rgb(60, 118, 61);
+    background-color: rgb(223, 240, 216);
+}
+
+.has-error .sensitive,
+.has-warning .sensitive,
+.has-success .sensitive {
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
+
+/** required **/
+.panel-heading.required .control-label:after,
+.form-group.required .control-label:after {
+    content: " *";
+    color: red;
+    font-weight: 700;
+}

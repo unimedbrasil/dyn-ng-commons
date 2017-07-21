@@ -1,0 +1,23 @@
+{
+  "name": "dyn-ng-commons",
+  "private": true,
+  "moduleType": [
+    "globals"
+  ],
+  "authors": [
+    "Dynamix Software"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/vendor/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "moment": "~2.11.2",
+    "moment-timezone": "~0.5.1",
+    "ngstorage": "~0.3.10"
+  }
+}
